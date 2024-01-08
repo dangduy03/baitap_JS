@@ -1,0 +1,162 @@
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding-left: 160px;
+    text-align: center;
+    width: 850px;
+}
+
+.list_content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list_content li {
+    list-style-type: none;
+    color: #0099FF;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.header_top {
+    width: 400px;
+    border-bottom: 2px solid black;
+
+}
+
+.header_top p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+}
+
+.main {
+    display: flex;
+    height: 465px;
+    margin-top: 10px;
+    border-top: 1px solid black;
+}
+
+.main_left {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_left_sp {
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+
+.main_left_sp img {
+    width: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+.main_left_sp p {
+    padding-bottom: 20px;
+    max-width: 200px;
+    border-bottom: 1px solid rgb(101, 97, 97);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+
+}
+
+
+.main_left_sp .add_cart p {
+    padding: 0;
+    border: none;
+}
+
+.add_cart {
+    margin-top: 10px;
+    background-color: orangered;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 100px;
+}
+
+.add_cart p {
+    color: white;
+}
+
+.add_cart :hover {
+    color: black;
+
+}
+
+.main_right {
+    margin-top: 5px;
+    /* background-image: url(https://img.thuthuattinhoc.vn/uploads/2019/10/26/hinh-anh-que-huong-con-tre-tha-dieu-tren-dong-co_055458613.jpg); */
+    background-image: url(img/tet.jpg);
+    width: 100%;
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    height: auto;
+    position: relative;
+
+}
+
+.main_right,
+.main_right_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_right_content p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+}
+
+.main_right_view {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 65%;
+    left: 43%;
+    cursor: pointer;
+
+}
+
+.main_right_view p {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+
+.main_right_view :hover {
+    color: black;
+}
